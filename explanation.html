@@ -1,0 +1,27 @@
+<html>
+<style>
+img{width:100%;}
+</style>
+
+
+i'm assuming you're a coder also like me.......................................
+
+
+==========================================================================
+
+
+
+<p>firstly unzip the fie, when done, you'll see many files within the test folder.
+copy the entire test folder into C:/xampp/htdocs/
+</p> 
+<p>run xampp control panel, start apache and mysql. Now visit localhost/test/index.php
+</p>
+<p>to recover the test database, import test.sql into phpmyadmin</p>
+<p>in the preset database(the whole program will not run without a preset datbase), you will see some names in the table that are not comprehensive,  
+regdetails= registration details, perdetails= personal details, resdetails= o'level result details, utmdetails= utme/jamb details</p>
+<p>in the whole script you have to log in with the username and password(surname) "Administator" to have admin privileges, any other user that tries to login will not have admin privileges, you can only approve or reject the person's application in the database. by changing the value of validated to one the person will be admitted, changing it to 2 means that the person was not given provisional amission because of low grades, changing it to 3 means that the person was not given provisional admission because of wroong o'level, changing the course table to any course will give the person the course if the validated table is 1</p>
+
+
+
+
+</html>
